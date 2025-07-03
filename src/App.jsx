@@ -1,10 +1,9 @@
 import React from "react";
 import Home from "./pages/Home";
 import Favorites from "./pages/Favorites";
-import { Routes, Route, Navigate } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import NavBar from "./components/NavBar";
 import { MovieProvider } from "./context/MovieContext";
-
 function App() {
   return (
     <div>
@@ -15,8 +14,7 @@ function App() {
             <div className="movies-panel">
               <Routes>
                 <Route path="/" element={<Home />} />
-                <Route path="/favorites" element={<Favorites />} />
-                <Route path="*" element={<Navigate to="/" />} /> {/* optional fallback */}
+                <Route path="/Favorites" element={<Favorites />} />
               </Routes>
             </div>
           </main>
