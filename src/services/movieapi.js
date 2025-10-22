@@ -170,6 +170,7 @@ export const getPopularMovies = async () => {
     "tt0446029", // Superbad
     "tt0057012", // Dr. Strangelove
     "tt0211915", // Amélie
+    "tt1587310", // maleficent
   ];
 
   // Fetch all movies in parallel
