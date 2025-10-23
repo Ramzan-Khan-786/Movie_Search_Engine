@@ -109,7 +109,6 @@ export const getPopularMovies = async () => {
     "tt0082971", // Raiders of the Lost Ark
     "tt0097576", // Indiana Jones and the Last Crusade
     "tt0381061", // Casino Royale (James Bond)
-    "tt0088763", // Back to the Future
     "tt0095016", // Die Hard
     "tt0110148", // Léon: The Professional
     "tt2911666", // John Wick
