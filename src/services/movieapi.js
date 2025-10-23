@@ -26,7 +26,6 @@ export const fetchMovieById = async (imdbID) => {
 // Fetch popular movies (hardcoded IMDb IDs)
 export const getPopularMovies = async () => {
   const popularIds = [
-    
     "tt15398776",
     "tt1517268",
     "tt15239678",
